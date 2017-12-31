@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+  
+	<title>Pixar Trivia</title>
+  
+	<link rel="stylesheet" href="assets/css/reset.css">
+ 	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+	<h1>Pixar Trivia!</h1>
+	<div id="timer-div">
+		<h2>Time Remaining: <span id="time-counter"></span></h2>
+	</div>
+
+	<button id="start-button">START</button>
+
+	<!-- QUESTION 1 -->
+	<div class="allQuestions" id="question1">
+		<h3>1. How many feature films has Pixar studios released?<br>
+			<button id="q1" value="19">19</button> <br>
+			<button id="q1" value="32">32</button> <br>
+			<button id="q1" value="28">28</button> <br>
+			<button id="q1" value="12">12</button> <br>
+		</h3>
+	</div>
+
+	<div class="questionAnswer" id="q1Correct"> 
+		<h2>Correct!<br> <img src="assets/images/pixar1.jpg" height="200"></h2>
+	</div>
+	<div class="questionAnswer" id="q1Incorrect"> 
+		<h2>Incorrect!<br> Correct answer is: 19<br> <img src="assets/images/pixar1.jpg" height="200"></h2> 
+	</div>
+
+
+	<!-- 	QUESTION 2-->	
+	<div class="allQuestions" id="question2">
+		<h3>2. What is Pixar's highest rated movie?<br>
+			<button id="q2" value="FN">Finding Nemo</button><br>
+			<button id="q2" value="C">Cars</button><br>
+			<button id="q2" value="TS">Toy Story</button><br>
+			<button id="q2" value="TI">The Incredibles</button><br>
+		</h3>
+	</div>
+
+	<div class="questionAnswer" id="q2Correct"> 
+		<h2>Correct!<br> <img src="assets/images/toystoryposter.jpg" height="200"></h2>
+	</div>
+	<div class="questionAnswer" id="q2Incorrect"> 
+		<h2>Incorrect!<br> Correct answer is: Toy Story<br> <img src="assets/images/toystoryposter.jpg" height="200"></h2> 
+	</div>
+
+
+	<!-- QUESTION 3 -->
+	<div class="allQuestions" id="question3">
+		<h3>3. What is Pixar's most recent film?<br>
+			<button id="q3" value="FD">Finding Dory</button><br>
+			<button id="q3" value="Cars">Cars 3</button><br>
+			<button id="q3" value="Fer">Ferdinand</button><br>
+			<button id="q3" value="Coco">Coco</button><br>
+		</h3>
+	</div>
+
+	<div class="questionAnswer" id="q3Correct"> 
+		<h2>Correct!<br> <img src="assets/images/coco.jpg" height="200"></h2>
+	</div>
+	<div class="questionAnswer" id="q3Incorrect"> 
+		<h2>Incorrect!<br> Correct answer is: Coco<br> <img src="assets/images/coco.jpg" height="200"></h2> 
+	</div>
+
+
+	<!-- QUESTION 4 -->
+	<div class="allQuestions" id="question4">
+		<h3>4. Who is the main character in the Toy Story movies?
+			<br>
+			<button id="q4" value="Buzz">Buzz</button><br>
+			<button id="q4" value="Woody">Woody</button><br>
+			<button id="q4" value="Andy">Andy</button><br>
+			<button id="q4" value="Sulley">Sulley</button><br>
+		</h3>
+	</div>
+
+	<div class="questionAnswer" id="q4Correct"> 
+		<h2>Correct!<br> <img src="assets/images/WoodyToyStory2.jpg" height="200"></h2>
+	</div>
+	<div class="questionAnswer" id="q4Incorrect"> 
+		<h2>Incorrect!<br> Correct answer is: Woody<br> <img src="assets/images/WoodyToyStory2.jpg" height="200"></h2> 
+	</div>
+
+
+	<!-- QUESTION 5 -->
+	<div class="allQuestions" id="question5">
+		<h3>5. Which of these is not a Pixar villian?<br>
+			<button id="q5" value="Stink">Stinky Pete</button><br>
+			<button id="q5" value="Rand">Randall</button><br>
+			<button id="q5" value="Remy">Remy</button><br>
+			<button id="q5" value="Syn">Syndrome</button><br>
+		</h3>
+	</div>
+
+	<div class="questionAnswer" id="q5Correct"> 
+		<h2>Correct!<br> <img src="assets/images/remyphoto.jpg" height="200"></h2>
+	</div>
+	<div class="questionAnswer" id="q5Incorrect"> 
+		<h2>Incorrect!<br> Correct answer is: Remy<br> <img src="assets/images/remyphoto.jpg" height="200"></h2> 
+	</div>
+
+	
+	<!-- CORRECT AND INCORRECT FINAL SCORE -->
+	<div id="correctScreen">
+		<h2>Correct Answers: <span id="correctScore"></span></h2>
+		<h2>Incorrect Answers: <span id="incorrectScore"></span></h2>
+	</div>
+
+
+</body>
+
+</html>
